@@ -64,7 +64,7 @@
         .description {
             max-width: 600px; /* Restrict width to avoid going too wide */
             margin: 0 auto; /* Center align the text */
-            font-size: 1em;
+            font-size: 0.9em; /* Smaller font size for descriptions */
             line-height: 1.6;
             text-align: center;
         }
@@ -77,37 +77,62 @@
             color: #ffffff;
             padding: 10px 0;
         }
+
+        /* Style project sections */
+        .projects-section {
+            margin-top: 30px;
+        }
+
+        /* Highlight UVA Sports Analytics projects */
+        .uva-projects {
+            font-size: 1.3em;
+            font-weight: bold;
+            color: #00bfff; /* Light blue color for emphasis */
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .other-projects {
+            margin-top: 50px;
+            font-size: 1.3em;
+            font-weight: bold;
+            color: #00bfff;
+            text-align: center;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Welcome to Lily England's Work Portfolio!</h1>
         <p>Explore my projects below:</p>
+
+        <!-- UVA Sports Science & Analytics Collective Section -->
+        <div class="projects-section">
+            <div class="uva-projects">UVA Sports Science & Analytics Collective Projects</div>
+            <ul>
+                <li>
+                    <a href="ACL%20work/ACL%20Research%20Filter.pdf">ACL Research Filter App (PDF)</a>
+                    <div class="description">
+                        <p>This is a web-based app I built to filter ACL reconstruction data based on user criteria. It is primarily used by researchers.</p>
+                    </div>
+                </li>
+                <li>
+                    <a href="https://acldashboard.com/" target="_blank">Visit the ACL Power BI Dashboard</a>
+                    <div class="description">
+                        <p>As part of a team, I helped convert the ACL Power BI Dashboard to a mobile-friendly format, enhancing the user experience on various devices. I also manage the dashboards as new data is added.</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Other Projects Section -->
+        <div class="other-projects">Other Projects</div>
         <ul>
             <li>
                 <a href="uswnt%20analysis/final%20report.html">USWNT Analysis Report</a>
             </li>
             <li>
                 <a href="Tom%20Sox%20Report.pdf">Tom Sox Report (PDF)</a>
-            </li>
-
-            <!-- UVA Sports Science & Analytics Collective Section -->
-            <li>
-                <strong>UVA Sports Science & Analytics Collective:</strong>
-                <ul>
-                    <li>
-                        <a href="ACL%20work/ACL%20Research%20Filter.pdf">ACL Research Filter App (PDF)</a>
-                        <div class="description">
-                            <p>This is a web-based app I built to filter ACL-related data based on user-defined criteria. It allows users to explore and analyze ACL research data dynamically.</p>
-                        </div>
-                    </li>
-                    <li>
-                        <a href="https://acldashboard.com/" target="_blank">Visit the ACL Power BI Dashboard</a>
-                        <div class="description">
-                            <p>I contributed to the ACL Power BI Dashboard by converting its desktop version into a mobile-optimized version, ensuring a seamless user experience across devices. This was part of a team effort, with my focus being on the mobile-friendly adaptation.</p>
-                        </div>
-                    </li>
-                </ul>
             </li>
         </ul>
     </div>
@@ -117,4 +142,5 @@
     </footer>
 </body>
 </html>
+
 
